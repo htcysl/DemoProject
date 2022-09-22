@@ -9,3 +9,8 @@ scv_to_db.py file
   5) for döngüsü içinde oncelikle tablo adı ve colun adaları düzeltildi.
       xyz[0] -> xyz_0_ şeklinde
   6) Database baglanıp pandas dataframe deki veriler tablolaştırıldı.
+
+data_anormality.py file
+
+Local databaseden angular_velocity tablosunu kullanarak açısal hızın x koordinatı ile y-koordinatı arasında fark %30 dan fazla olan değerleri '1' diğerlerini '0' olarak 
+işaretlendi.Bu değerlerde 'type' colununa yazıldı.  
