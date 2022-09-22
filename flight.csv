@@ -1,0 +1,3 @@
+flight_id,model_id,mission_id,flight_date,landing_date,landing_success,flight_success,flight_county,flight_province,flight_region,real_flight_time,mission_success
+68,3,2,2022-09-08 11:01:00,2022-09-08 11:02:09.630734,t,t,Kahramankazan,Ankara,İç Anadolu Bölgesi,00:02:43,t
+69,3,2,2022-09-08 13:42:00,2022-09-08 13:42:58.787339,t,t,Kahramankazan,Ankara,İç Anadolu Bölgesi,00:00:00,f
