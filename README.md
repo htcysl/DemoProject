@@ -1,5 +1,6 @@
 # DemoProject
 Veri Bilimci Case Study
+
 scv_to_db.py file
   1) csv uzantılı dosyalar csv_list listesine atildı.
   2) Her bir scv dosyalarını pandas yapısna çevril.
