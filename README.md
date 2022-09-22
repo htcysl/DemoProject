@@ -14,7 +14,11 @@ scv_to_db.py file
 data_anormality.py file
 
 
-Local databaseden angular_velocity tablosunu kullanarak açısal hızın x koordinatı ile y-koordinatı arasında fark %30 dan fazla olan değerleri '1', diğerler de '0'     olarak işaretlendi.Bu değerlerde 'type' colununa yazıldı.  
+Local databaseden angular_velocity tablosunu kullanarak açısal hızın x koordinatı ile y-koordinatı arasında fark %30 dan fazla olan değerleri '1', diğerler de '0'     olarak işaretlendi.Bu değerlerde 'type' colununa yazıldı. 
+
+Veriler işaretlenirken x ve y koordinatlari yönüdeki bileşenler vektorel fark alınarak işlem yapılmıştır. 
+   fark = sqrt(x^2 + y^2 -2*x*y*cos(alpha)) alpha : iki vektor arasındaki açı, burada alhha = 0 olduğundan cos(alpha) = 0 : fark = sqrt(x^2 + y^2) şeklinde kullanıldı. 
+
 
 
 DecisionTree.py
